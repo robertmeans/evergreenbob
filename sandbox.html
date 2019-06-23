@@ -1,0 +1,30 @@
+<script>
+$(document).ready(function(){  
+$("#email-bob").hide();
+$(".robert").click(function(){
+    $("button#toggle-contact-form").toggleClass("active").nextAll().eq(1).slideToggle(600);
+
+    if ($.trim($("button#toggle-contact-form").text()) === 'close') {
+        $("button#toggle-contact-form").html('<i class="far fa-comments" aria-hidden="true"></i>&nbsp;&nbsp; shout out');
+    } else {
+        $("button#toggle-contact-form").html('<i class="fa fa-times-circle" aria-hidden="true"></i> &nbsp;&nbsp; close &nbsp;&nbsp; <i class="fa fa-times-circle" aria-hidden="true"></i>');
+    }
+    return false;
+  })
+});
+
+
+$(document).ready(function(){
+$("#curiosities").hide();
+$(".neat").click(function(){
+    $("button#toggle-curiosity-content").toggleClass("active").nextAll().eq(1).slideToggle(600);
+
+    if ($.trim($("button#toggle-curiosity-content").text()) === 'close') {
+        $("button#toggle-curiosity-content").html('<i class="fas fa-feather-alt" aria-hidden="true"></i>&nbsp;&nbsp; curiosities');
+    } else {
+        $("button#toggle-curiosity-content").html('<i class="fa fa-times-circle" aria-hidden="true"></i> &nbsp;&nbsp; close &nbsp;&nbsp; <i class="fa fa-times-circle" aria-hidden="true"></i>');
+    }
+    return false;
+  })
+});
+</script>
