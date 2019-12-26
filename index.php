@@ -11,18 +11,18 @@
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
 	
-	<title>The Bob - Evergreen, Colorado</title>
+	<title>Evergreen Bob - Evergreen, Colorado</title>
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta name="description" content="Name's Bob. I live in Evergreen. By transitive properties of association I've come to reign this domain.">
+	<meta name="description" content="Name's Bob. I live in Evergreen. By transitive properties of association I've come to reign this domain as Evergreen Bob.">
 	<meta name="format-detection" content="telephone=no">
 
     <meta property="og:url" content="http://www.evergreenbob.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="The Bob, Evergreen, Colorado" />
+    <meta property="og:title" content="Evergreen Bob - Evergreen, Colorado" />
     <meta property="og:image" content="http://www.evergreenbob.com/_images/evergreen-bob.jpg?<?php echo time(); ?>" />
     <meta property="og:image:alt" content="Evergreen Bob" />
-    <meta property="og:description" content="Name's Bob. I live in Evergreen. By transitive properties of association I've come to reign this domain." />
+    <meta property="og:description" content="Name's Bob. I live in Evergreen. By transitive properties of association I've come to reign this domain as Evergreen Bob." />
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat|Lato' rel='stylesheet' type='text/css'>
@@ -213,6 +213,12 @@
         }
     ?>
     
+
+<!--     <div id='warped'>
+        <span class='w0'>E</span><span class='w1'>v</span><span class='w2'>e</span><span class='w3'>r</span><span class='w4'>g</span><span class='w5'>r</span><span class='w6'>e</span><span class='w7'>e</span><span class='w8'>n</span><span class='w9'> </span><span class='w10'>B</span><span class='w11'>o</span><span class='w12'>b</span>
+    </div> -->
+
+
     <div id="contact-wrapper" class="cf">
         <img class="click-box-01 bob-twirl" src="_images/evergreen-bob.jpg">
 
