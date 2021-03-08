@@ -5,5 +5,5 @@ function recaptchaCallback() {
 	};
 
 $(window).on('load', function() {
-    $(".preload").delay(500).fadeOut(750);
+    $(".preload").delay(250).fadeOut(500);
     });
